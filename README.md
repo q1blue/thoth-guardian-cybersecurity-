@@ -668,3 +668,113 @@ To integrate all the correct URLs for the platforms and tools you mentioned, her
 11. **GitBook**: [https://www.gitbook.com](https://www.gitbook.com)
 
 You can embed these URLs in your documentation, README, or any other relevant location for quick access to these platforms. Let me know if you need help with structuring them into a markdown file, GitBook, or any other specific format!
+create clickable words that link to relevant documentation, knowledgebases, and codex for the Thoth Guardian project, here’s how you can structure it:
+
+Clickable Links for Thoth Guardian
+
+README.md
+Link to the main documentation of the project in the repository.
+
+TypeScript Documentation
+Since the project is primarily written in TypeScript, this is a link to the official TypeScript documentation.
+
+JavaScript Documentation
+A link to MDN’s JavaScript documentation for any JavaScript-related queries.
+
+GitHub Docs
+Official documentation for GitHub features and workflows.
+
+StackBlitz Guide
+Since the repo description mentions "Created with StackBlitz ⚡️", this is a link to StackBlitz's guides and documentation.
+
+Node.js Documentation
+If your project involves Node.js for backend or development tooling, here’s the official Node.js documentation.
+
+NPM (Node Package Manager)
+For managing dependencies in your project.
+
+Cybersecurity Resources - OWASP
+For cybersecurity best practices, OWASP provides abundant resources.
+
+Would you like links to additional resources, or specific setup instructions for dependencies and quickstart? Let me know!
+
+Retry for Thoth Guardian 
+
+Here’s a setup guide, build instructions, and agent quickstart for Thoth Guardian:
+
+1. Setup Build Instructions
+
+To start working with the Thoth Guardian project, follow these steps:
+
+Prerequisites:Node.js: Ensure you have Node.js installed (recommended version: 16.x or higher). You can download it here.npm: Comes with Node.js. Ensure it’s updated with npm install -g npm.Git: Ensure Git is installed to clone the repository. Download Git here.Steps:Clone the repository:
+
+bash
+
+git clone https://github.com/q1blue/thoth-guardian-cybersecurity-.git 
+
+Navigate into the project directory:
+
+bash
+
+cd thoth-guardian-cybersecurity- 
+
+Install dependencies:
+
+bash
+
+npm install 
+
+2. Install All Correct Dependencies
+
+The dependencies for the project are managed via the package.json file. After running npm install, ensure that all dependencies are correctly installed.
+
+If you encounter dependency issues, use the following commands:
+
+To reinstall everything:
+
+bash
+
+rm -rf node_modules package-lock.json npm install 
+
+Check for outdated packages:
+
+bash
+
+npm outdated 
+
+Update packages if needed:
+
+bash
+
+npm update 
+
+3. Agent Quickstart
+
+To quickly launch the Thoth Guardian agent, follow these steps:
+
+Running the Development Server:
+
+Start the development server:
+
+bash
+
+npm start 
+
+This will launch the application locally. Typically, it runs on http://localhost:3000/.
+
+Open the application in your browser at http://localhost:3000/.
+
+Running Tests:
+
+To ensure that everything is working as expected:
+
+bash
+
+npm test 
+
+4. Additional ResourcesProject README.md: Visit the project’s README for more information.TypeScript Documentation: Official DocsNode.js Documentation: Official DocsStackBlitz Guide: StackBlitz Docs
+
+Let me know if you need further assistance or customizations for this setup!
+
+Add Thoth Satellite Thoth station Emerald tablets etc
+
